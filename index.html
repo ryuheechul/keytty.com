@@ -8,18 +8,100 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <style>
+    .videoWrapper {
+      position: relative;
+      padding-bottom: 59%; /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+    }
+    .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .drop-shadow {
+      -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter:         drop-shadow(5px 5px 5px #222);
+    }
+    .box-horizontal-center {
+      margin: auto;
+      /*width: 60%;*/
+      /*border: 3px solid #73AD21;*/
+      /*padding: 10px;*/
+    }
+    .page-header-container {
+      max-width: 800px;
+    }
+    .vertical-container {
+      /*height: 300px;*/
+      display: -webkit-flex;
+      display:         flex;
+      -webkit-align-items: center;
+              align-items: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+      /*max-width: 800px;*/
+    }
+    .container {
+      display: -webkit-flex;
+      display: flex;
+    }
+    /*nav {
+      width: 200px;
+    }*/
+    .flex-column-double {
+      -webkit-flex: 4;
+              flex: 4;
+    }
+    .flex-column {
+      -webkit-flex: 1;
+              flex: 1;
+    }
+    .flex-column-big {
+      -webkit-flex: 2;
+              flex: 2;
+    }
+    </style>
   </head>
   <body>
+    <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fshortcatapp.com%2F&amp;ref_src=twsrc%5Etfw&amp;text=Check%20out%20%40shortcatapp.%20It%27s%20Spotlight%20for%20the%20UI!&amp;tw_p=tweetbutton&amp;url=http%3A%2F%2Fshortcatapp.com%2F" class="btn" id="b"><i></i><span class="label" id="l">Tweet</span></a>
     <section class="page-header">
-      <h1 class="project-name">Keytty</h1>
-      <h2 class="project-tagline">The best friend to your mouse.</h2>
-      <a href="https://github.com/ryuheechul/keytty.com" class="btn">View on GitHub</a>
-      <a href="https://github.com/ryuheechul/keytty.com/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/ryuheechul/keytty.com/tarball/master" class="btn">Download .tar.gz</a>
+      <!-- <div class="container"> -->
+      <div class="page-header-container box-horizontal-center drop-shadow">
+        <div class="vertical-container">
+
+          <div class="flex-column-double">
+            <div class="vertical-container">
+              <div class="flex-column-double">
+                <p><img class="drop-/shadow" src="./images/keytty.app.png" alt="keytty-icon"></p>
+              </div>
+              <div class="flex-column">
+                <p><img class="drop-/shadow" src="./images/heart.png" style="width:70%;height=70%;" alt="heart"></p>
+              </div>
+              <div class="flex-column">
+                <p><img class="drop-/shadow" src="./images/cursor.png" alt="mouse-cursor"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-column-double">
+            <h1 class="project-name drop-/shadow">Keytty</h1>
+            <h2 class="project-tagline">The best friend to your mouse.</h2>
+            <!-- <a href="https://github.com/ryuheechul/keytty.com" class="btn">View on GitHub</a> -->
+            <a href="https://dl.devmate.com/com.keytty.Keytty/keytty.dmg" class="btn">Download Free Trial</a>
+            <a href="http://sites.fastspring.com/keytty/product/keytty-all" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="main-content">
-      <p><img src="https://files.shortcatapp.com/shortcat-screencast-network.gif" alt="aa"></p>
+
+<p><img width="100%" src="./images/keytty_gif.gif" alt="keytty-gif"></p>
 
 <h3>
 <a id="control-your-mouse-with-your-keyboard" class="anchor" href="#control-your-mouse-with-your-keyboard" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Control your mouse with your keyboard.</h3>
@@ -105,6 +187,12 @@
 <h3>
 <a id="screencast" class="anchor" href="#screencast" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Screencast</h3>
 
+<p>
+  <div class="videoWrapper">
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/g2cNLmcsBC8" frameborder="0" allowfullscreen></iframe>
+  </div>
+</p>
+
 <h3>
 <a id="limitations" class="anchor" href="#limitations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Limitations</h3>
 
@@ -113,14 +201,37 @@
 <li>You can control your mouse cursor actions with Keytty most of the time but you can't override the OS level controls (for example, mission control, etc.) since Keytty is only an app running on the OS.</li>
 </ul>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/ryuheechul/keytty.com">Keytty</a> is maintained by <a href="https://github.com/ryuheechul">ryuheechul</a>.</span>
+<section class="page-header" style="padding: 10px;">
+  <!-- <div class="container"> -->
+  <div class="page-header-container box-horizontal-center drop-shadow">
+    <div class="vertical-container" style="padding-top: 15px;">
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      <div class="flex-column-double">
+        <div class="vertical-container">
+          <div class="flex-column-big">
+            <p><img class="drop-/shadow" src="./images/keytty.app.png" alt="keytty-icon" width="50%" height="50%"></p>
+          </div>
+          <div class="flex-column">
+            <p><img class="drop-/shadow" src="./images/heart.png" style="width:70%;height=70%;" alt="heart"></p>
+          </div>
+          <div class="flex-column">
+            <p><img class="drop-/shadow" src="./images/cursor.png" alt="mouse-cursor"  width="50%" height="50%"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-column-double">
+        <a href="https://dl.devmate.com/com.keytty.Keytty/keytty.dmg" class="btn">Download Free Trial</a>
+        <a href="http://sites.fastspring.com/keytty/product/keytty-all" class="btn">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+      <footer class="site-footer">
+        <span class="site-footer-owner">Keytty and related materials are copyright © 2016 Heechul Ryu</span>
+        <span class="site-footer-credits">Mac OS X is a trademark of Apple Inc., registered in the U.S. and in other countries.</span>
       </footer>
 
     </section>
-
-  
   </body>
 </html>
