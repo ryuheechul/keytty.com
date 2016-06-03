@@ -8,18 +8,80 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <style>
+    .drop-shadow {
+      -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter:         drop-shadow(5px 5px 5px #222);
+    }
+    .box-horizontal-center {
+      margin: auto;
+      /*width: 60%;*/
+      /*border: 3px solid #73AD21;*/
+      /*padding: 10px;*/
+    }
+    .page-header-container {
+      max-width: 800px;
+    }
+    .vertical-container {
+      height: 300px;
+      display: -webkit-flex;
+      display:         flex;
+      -webkit-align-items: center;
+              align-items: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+      /*max-width: 800px;*/
+    }
+    .container {
+      display: -webkit-flex;
+      display: flex;
+    }
+    /*nav {
+      width: 200px;
+    }*/
+    .flex-column-double {
+      -webkit-flex: 4;
+              flex: 4;
+    }
+    .flex-column {
+      -webkit-flex: 1;
+              flex: 1;
+    }
+    </style>
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Keytty</h1>
-      <h2 class="project-tagline">The best friend to your mouse.</h2>
-      <!-- <a href="https://github.com/ryuheechul/keytty.com" class="btn">View on GitHub</a> -->
-      <a href="https://dl.devmate.com/com.keytty.Keytty/keytty.dmg" class="btn">Download Free Trial</a>
-      <a href="http://sites.fastspring.com/keytty/product/keytty-all" class="btn">Buy Now</a>
+      <!-- <div class="container"> -->
+      <div class="page-header-container box-horizontal-center drop-shadow">
+        <div class="vertical-container">
+
+          <div class="flex-column-double">
+            <div class="vertical-container">
+              <div class="flex-column-double">
+                <p><img class="drop-/shadow" src="./images/keytty.app.png" alt="gg"></p>
+              </div>
+              <div class="flex-column">
+                <p><img class="drop-/shadow" src="./images/heart.png" style="width:70%;height=70%;" alt="gg"></p>
+              </div>
+              <div class="flex-column">
+                <p><img class="drop-/shadow" src="./images/cursor.png" alt="gg"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-column-double">
+            <h1 class="project-name drop-/shadow">Keytty</h1>
+            <h2 class="project-tagline">The best friend to your mouse.</h2>
+            <!-- <a href="https://github.com/ryuheechul/keytty.com" class="btn">View on GitHub</a> -->
+            <a href="https://dl.devmate.com/com.keytty.Keytty/keytty.dmg" class="btn">Download Free Trial</a>
+            <a href="http://sites.fastspring.com/keytty/product/keytty-all" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="main-content">
-      <p><img src="http://monthly.chosun.com/upload/1305/1305_310.jpg" alt="gg"></p>
+      <!-- <p><img src="http://monthly.chosun.com/upload/1305/1305_310.jpg" alt="gg"></p> -->
 
 <p><img src="https://files.shortcatapp.com/shortcat-screencast-network.gif" alt="aa"></p>
 
