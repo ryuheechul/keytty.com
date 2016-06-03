@@ -9,6 +9,20 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <style>
+    .videoWrapper {
+      position: relative;
+      padding-bottom: 59%; /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+    }
+    .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
     .drop-shadow {
       -webkit-filter: drop-shadow(5px 5px 5px #222);
       filter:         drop-shadow(5px 5px 5px #222);
@@ -84,6 +98,11 @@
       <!-- <p><img src="http://monthly.chosun.com/upload/1305/1305_310.jpg" alt="gg"></p> -->
 
 <p><img src="https://files.shortcatapp.com/shortcat-screencast-network.gif" alt="aa"></p>
+<p>
+  <div class="videoWrapper">
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/g2cNLmcsBC8" frameborder="0" allowfullscreen></iframe>
+  </div>
+</p>
 
 <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
