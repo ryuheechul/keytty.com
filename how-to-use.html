@@ -17,6 +17,16 @@
     </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
     <!-- End Google Analytics -->
+    <script>
+    function downloadClick(label){
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Download',
+        eventAction: 'click',
+        eventLabel: label
+      });
+    }
+    </script>
   </head>
   <body>
     <section class="page-header" style="padding: 10px;">
@@ -223,8 +233,8 @@
       </div>
 
       <div class="flex-column-double">
-        <a href="https://dl.devmate.com/com.keytty.Keytty/keytty.dmg" class="btn">Download Free Trial</a>
-        <a href="http://sites.fastspring.com/keytty/product/keytty-all" class="btn buy-btn">Buy Now</a>
+        <a onclick="downloadClick('trial-bottom');" href="https://dl.devmate.com/com.keytty.Keytty/keytty.dmg" class="btn">Download Free Trial</a>
+        <a onclick="downloadClick('buy-bottom');"  href="http://sites.fastspring.com/keytty/product/keytty-all" class="btn buy-btn">Buy Now</a>
       </div>
     </div>
   </div>
