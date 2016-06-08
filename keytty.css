@@ -1,0 +1,67 @@
+.videoWrapper {
+    position: relative;
+    padding-bottom: 59%;
+    /* 16:9 */
+    
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.drop-shadow {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+.box-horizontal-center {
+    margin: auto;
+    /*width: 60%;*/
+    /*border: 3px solid #73AD21;*/
+    /*padding: 10px;*/
+}
+.page-header-container {
+    max-width: 800px;
+}
+.vertical-container {
+    /*height: 300px;*/
+    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    /*max-width: 800px;*/
+}
+.container {
+    display: -webkit-flex;
+    display: flex;
+}
+/*nav {
+  width: 200px;
+}*/
+
+.flex-column-double {
+    -webkit-flex: 4;
+    flex: 4;
+}
+.flex-column {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.flex-column-big {
+    -webkit-flex: 2;
+    flex: 2;
+}
+.buy-btn {
+    background-color: #3399ff;
+    border-color: #3399ff;
+}
+.buy-btn:hover {
+    background-color: #0066ff;
+    border-color: #0066ff;
+}
