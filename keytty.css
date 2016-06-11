@@ -97,3 +97,14 @@
     background-color: #0066ff;
     border-color: #0066ff;
 }
+.requirement {
+    color:lightgray;
+    font-size:11px;
+}
+
+@media (max-width: 400px) {
+  .requirement {
+    margin-top:20px;
+    font-size:10px;
+  }
+}
