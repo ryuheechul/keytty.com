@@ -102,9 +102,18 @@
     font-size:11px;
 }
 
+.sell-message {
+    font-size:11px;
+    margin-bottom: 10px;
+    color: #66cdaa;
+}
+
 @media (max-width: 400px) {
   .requirement {
-    margin-top:20px;
+    margin-top:10px;
     font-size:10px;
+  }
+  .sell-message {
+    margin-top:10px;
   }
 }
