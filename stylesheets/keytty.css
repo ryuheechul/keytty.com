@@ -116,6 +116,10 @@
   .sell-message {
     margin-top:10px;
   }
+
+  .userback-button-container .userback-button-circle {
+    width: 40px !important; height: 40px !important;
+  }
 }
 
 .support-btn {
