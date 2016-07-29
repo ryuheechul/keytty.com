@@ -129,3 +129,12 @@
   margin-top: -10px  !important;
   padding-top: -10px !important;*/
 }
+
+#banner-subtitle {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#banner-subtitle.fade {
+  opacity: 0;
+}
