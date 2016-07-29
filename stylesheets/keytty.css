@@ -73,6 +73,13 @@
     margin-right: 30px;*/
   }
 }
+
+@media (max-width: 500px) {
+  #banner-subtitle {
+    line-height: 1.5em;
+    height: 3em;
+  }
+}
 /*nav {
   width: 200px;
 }*/
