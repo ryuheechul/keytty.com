@@ -4,32 +4,45 @@
     <meta charset="UTF-8">
     <title>How to use Keytty</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link rel="alternate" hreflang="ko" href="http://keytty.com/ko/how-to-use">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <style type="text/css" media="screen">/*! normalize.css v3.0.2 | MIT License | git.io/normalize */img,legend{border:0}legend,td,th{padding:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}</style>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css" media="screen" inline>
     <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> -->
-    <style type="text/css" media="screen">@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff')}</style>
-    <style type="text/css" media="screen">*{box-sizing:border-box}body{padding:0;margin:0;font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#606c71}a{color:#1e6bb8;text-decoration:none}a:hover{text-decoration:underline}.btn{display:inline-block;margin-bottom:1rem;color:rgba(255,255,255,.7);background-color:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2);border-style:solid;border-width:1px;border-radius:.3rem;transition:color .2s,background-color .2s,border-color .2s}.btn+.btn{margin-left:1rem}.btn:hover{color:rgba(255,255,255,.8);text-decoration:none;background-color:rgba(255,255,255,.2);border-color:rgba(255,255,255,.3)}@media screen and (min-width:64em){.btn{padding:.75rem 1rem}}@media screen and (min-width:42em) and (max-width:64em){.btn{padding:.6rem .9rem;font-size:.9rem}}@media screen and (max-width:42em){.btn{display:block;width:100%;padding:.75rem;font-size:.9rem}.btn+.btn{margin-top:1rem;margin-left:0}}.page-header{color:#fff;text-align:center;background-color:#159957;background-image:linear-gradient(120deg,#155799,#159957)}.project-name{margin-top:0;margin-bottom:.1rem}@media screen and (min-width:64em){.page-header{padding:5rem 6rem}.project-name{font-size:3.25rem}}@media screen and (min-width:42em) and (max-width:64em){.page-header{padding:3rem 4rem}.project-name{font-size:2.25rem}}@media screen and (max-width:42em){.page-header{padding:2rem 1rem}.project-name{font-size:1.75rem}}.project-tagline{margin-bottom:2rem;font-weight:400;opacity:.7}@media screen and (min-width:64em){.project-tagline{font-size:1.25rem}}@media screen and (min-width:42em) and (max-width:64em){.project-tagline{font-size:1.15rem}}@media screen and (max-width:42em){.project-tagline{font-size:1rem}}.main-content :first-child{margin-top:0}.main-content img{max-width:100%}.main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6{margin-top:2rem;margin-bottom:1rem;font-weight:400;color:#159957}.main-content blockquote>:first-child,.main-content ol,.main-content ul{margin-top:0}.main-content p{margin-bottom:1em}.main-content code{padding:2px 4px;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;font-size:.9rem;color:#383e41;background-color:#f3f6fa;border-radius:.3rem}.main-content pre{margin-top:0;margin-bottom:1rem;font:1rem Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#567482;word-wrap:normal;background-color:#f3f6fa;border:1px solid #dce6f0}.main-content pre>code{padding:0;margin:0;font-size:.9rem;color:#567482;word-break:normal;white-space:pre;background:0 0;border:0}.main-content .highlight{margin-bottom:1rem}.main-content .highlight pre{margin-bottom:0;word-break:normal}.main-content .highlight pre,.main-content pre{padding:.8rem;overflow:auto;font-size:.9rem;line-height:1.45;border-radius:.3rem}.main-content pre code,.main-content pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.main-content pre code:after,.main-content pre code:before,.main-content pre tt:after,.main-content pre tt:before{content:normal}.main-content blockquote{padding:0 1rem;margin-left:0;color:#819198;border-left:.3rem solid #dce6f0}.main-content blockquote>:last-child{margin-bottom:0}.main-content table{display:block;width:100%;overflow:auto;word-break:keep-all}.main-content table th{font-weight:700}.main-content table td,.main-content table th{padding:.5rem 1rem;border:1px solid #e9ebec}.main-content dl{padding:0}.main-content dl dt{padding:0;margin-top:1rem;font-size:1rem;font-weight:700}.main-content dl dd{padding:0;margin-bottom:1rem}.main-content hr{height:2px;padding:0;margin:1rem 0;background-color:#eff0f1;border:0}@media screen and (min-width:64em){.main-content{max-width:64rem;padding:2rem 6rem;margin:0 auto;font-size:1.1rem}}@media screen and (min-width:42em) and (max-width:64em){.main-content{padding:2rem 4rem;font-size:1.1rem}.site-footer{font-size:1rem}}@media screen and (max-width:42em){.main-content{padding:2rem 1rem;font-size:1rem}}.site-footer{padding-top:2rem;border-top:solid 1px #eff0f1}.site-footer-owner{display:block;font-weight:700}.site-footer-credits{color:#819198}@media screen and (min-width:64em){.site-footer{font-size:1rem}}@media screen and (max-width:42em){.site-footer{font-size:.9rem}}</style>
-    <style type="text/css" media="screen">.pl-mb,.pl-mdr,.pl-sr .pl-cce{font-weight:700}.pl-c{color:#969896}.pl-c1,.pl-s .pl-v{color:#0086b3}.pl-e,.pl-en{color:#795da3}.pl-s .pl-s1,.pl-smi{color:#333}.pl-ent{color:#63a35c}.pl-k{color:#a71d5d}.pl-pds,.pl-s,.pl-s .pl-pse .pl-s1,.pl-sr,.pl-sr .pl-sra,.pl-sr .pl-sre{color:#183691}.pl-v{color:#ed6a43}.pl-id{color:#b52a1d}.pl-ii{background-color:#b52a1d;color:#f8f8f8}.pl-sr .pl-cce{color:#63a35c}.pl-ml{color:#693a17}.pl-mh,.pl-mh .pl-en,.pl-ms{color:#1d3e81;font-weight:700}.pl-mq{color:teal}.pl-mi{color:#333;font-style:italic}.pl-mb{color:#333}.pl-md{background-color:#ffecec;color:#bd2c00}.pl-mi1{background-color:#eaffea;color:#55a532}.pl-mdr{color:#795da3}.pl-mo{color:#1d3e81}</style>
-    <style type="text/css" media="screen">.videoWrapper{position:relative;padding-bottom:59%;padding-top:25px;height:0}.videoWrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%}.drop-shadow{-webkit-filter:drop-shadow(5px 5px 5px #222);filter:drop-shadow(5px 5px 5px #222)}.box-horizontal-center{margin:auto}.page-header-container{max-width:800px}.vertical-container{-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center}.container,.vertical-container{display:-webkit-flex;display:flex}.desktop-only-buttons{display:block}.mobile-only-buttons{display:none}@media (max-width:400px){.container{display:block}.main-big-icon{width:80%;height:80%}.desktop-only-buttons{display:none}.mobile-only-buttons{display:block}.mobile-only-buttons a{width:80%;margin:10px auto 0}}@media (max-width:500px){#banner-subtitle{line-height:1.5em;height:3em}}.flex-column-double{-webkit-flex:4;flex:4}.flex-column{-webkit-flex:1;flex:1}.flex-column-big{-webkit-flex:2;flex:2}.buy-btn{background-color:#39f;border-color:#39f}.buy-btn:hover{background-color:#06f;border-color:#06f}.requirement{color:#d3d3d3;font-size:11px}.sell-message{font-size:11px;margin-bottom:10px;color:#66cdaa}@media (max-width:400px){.requirement{font-size:10px}.requirement,.sell-message{margin-top:10px}.userback-button-container .userback-button-circle{width:40px!important;height:40px!important}}.support-btn{font-size:14px}#banner-subtitle{opacity:1;transition:opacity .5s}#banner-subtitle.fade{opacity:0}</style>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/font.css" media="screen" inline>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" inline>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/github-light.css" media="screen" inline>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/keytty.css" media="screen" inline>
     <!-- Google Analytics -->
-    <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-78989373-1","auto"),ga("send","pageview");</script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-78989373-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
     <!-- End Google Analytics -->
-    <script>function downloadClick(e){ga("send",{hitType:"event",eventCategory:"Download",eventAction:"click",eventLabel:e})}</script>
+    <script>
+    function downloadClick(label){
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Download',
+        eventAction: 'click',
+        eventLabel: label
+      });
+    }
+    </script>
         <script type="application/ld+json">
     {
       "@context": "http://schema.org/",
       "@type": "SoftwareApplication",
       "name": "Keytty, control your mouse with the keyboard on macOS",
       "author": "Heechul Ryu",
-      "image": "http://keytty.com/images/keytty.app.png",
+      "image": "https://keytty.com/images/keytty.app.png",
       "description": "Keytty is a macOS (OS X) app that enables you to control your mouse with a few key strokes.",
       "applicationCategory": "Productivity, Utilities",
       "availableOnDevice": "Mac OS X",
-      "downloadUrl": "https://dl.devmate.com/com.keytty.Keytty/keytty.dmg",
+      "downloadUrl": "https://keytty.com/support/downloads",
       "featureList": [
         "Mouse move",
         "Mouse click",
@@ -39,28 +52,28 @@
       ],
       "fileSize": "10MB",
       "operatingSystem": "macOS 10.10+",
-      "screenshot": "http://keytty.com/images/keytty_gif.gif"
+      "screenshot": "https://keytty.com/images/keytty_gif.gif"
     }
     </script>
 
   </head>
 
   <body>
-    <section class="page-header" style="padding: 10px">
+    <section class="page-header" style="padding: 10px;">
       <!-- <div class="container"> -->
       <div class="page-header-container box-horizontal-center drop-shadow">
-        <div class="vertical-container" style="padding-top: 15px">
+        <div class="vertical-container" style="padding-top: 15px;">
 
           <div class="flex-column-double">
             <div class="vertical-container">
               <div class="flex-column-double">
-                <p><img class="drop-/shadow" src="/images/keytty.app.png" alt="keytty-icon" style="width:50%; height:50%"></p>
+                <p><img class="drop-/shadow" src="/images/keytty.app.png" alt="keytty-icon" style="width:50%; height:50%;" /></p>
               </div>
               <div class="flex-column">
-                <p><img class="drop-/shadow" src="/images/heart.png" style="width:70%;height=70%" alt="heart"></p>
+                <p><img class="drop-/shadow" src="/images/heart.png" style="width:70%;height=70%;" alt="heart" /></p>
               </div>
               <div class="flex-column main-big-icon">
-                <p><img class="drop-/shadow" src="/images/cursor.png" alt="mouse-cursor"></p>
+                <p><img class="drop-/shadow" src="/images/cursor.png" alt="mouse-cursor" /></p>
               </div>
             </div>
           </div>
@@ -89,7 +102,7 @@ Open Keytty
 </ul>
 
 <h4>
-  <hr>
+  <hr/>
 <a id="commands" class="anchor" href="#commands" aria-hidden="true">
 	<span aria-hidden="true" class="octicon octicon-link">
 	</span>
@@ -97,7 +110,7 @@ Open Keytty
 Move
 </h4>
 
-<div class="container" style="padding-top: 15px">
+<div class="container" style="padding-top: 15px;">
   <div class="flex-column">
 
 <h5>
@@ -152,7 +165,7 @@ Section Move
 </div>
 
 <h4>
-  <hr>
+  <hr/>
 	<a id="--actions" class="anchor" href="#--actions" aria-hidden="true">
 		<span aria-hidden="true" class="octicon octicon-link">
 		</span>
@@ -165,7 +178,7 @@ Section Move
 	<li>Then type one of the commands below:</li>
 </ul>
 
-<div class="container" style="padding-top: 15px">
+<div class="container" style="padding-top: 15px;">
   <div class="flex-column">
 
 <h5>
@@ -234,7 +247,7 @@ Section Move
   </div>
 </div>
 
-<hr>
+<hr/>
 
 <h3>
   <a id="special-modes" class="anchor" href="#special-modes" aria-hidden="true">
@@ -243,7 +256,7 @@ Section Move
   </a>
 Special Modes
 </h3>
-<div class="container" style="padding-top: 15px">
+<div class="container" style="padding-top: 15px;">
   <div class="flex-column">
     <h4>
       <a id="--control-mode" class="anchor" href="#--control-mode" aria-hidden="true">
@@ -281,14 +294,14 @@ Special Modes
       <li>toggle by pressing the single quote key (&#x27;)</li>
       <li>the Keytty interface opens again after execution</li>
     </ul>
-<hr>
+<hr/>
 <h3>
   <a id="advanced-settings-keytty-status-bar-icon-click---advanced-settings---click-to-toggle" class="anchor" href="#advanced-settings-keytty-status-bar-icon-click---advanced-settings---click-to-toggle" aria-hidden="true">
     <span aria-hidden="true" class="octicon octicon-link">
     </span>
   </a> Advanced Settings
-  <dd style="font-size:10pt">- Click the Keytty status bar icon menu -&gt; Advanced Settings</dd>
-  <dd style="font-size:10pt">- Click menu item to toggle the setting</dd>
+  <dd style="font-size:10pt;">- Click the Keytty status bar icon menu -&gt; Advanced Settings</dd>
+  <dd style="font-size:10pt;">- Click menu item to toggle the setting</dd>
 </h3>
 
 <h4>
@@ -337,9 +350,9 @@ Special Modes
   <ul>
   <li>the interface will start automatically in &quot;Continuous Commanding Mode&quot; when it is appear</li>
   </ul>
+</ul>
 
-
-<hr>
+<hr/>
 <h3>
 <a id="screencast" class="anchor" href="#screencast" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link">
 </span>
@@ -348,52 +361,52 @@ Screencast
 </h3>
 
 <p>
-  </p><div class="videoWrapper">
+  <div class="videoWrapper">
     <iframe width="420" height="315" src="https://www.youtube.com/embed/g2cNLmcsBC8" frameborder="0" allowfullscreen></iframe>
   </div>
 	<a href="https://www.youtube.com/channel/UC5Zi0Mrdj0xKg7LVE8SfztA">More videos</a>
-<p></p>
+</p>
 
-<section class="page-header" style="padding: 10px">
+<section class="page-header" style="padding: 10px;">
   <!-- <div class="container"> -->
   <div class="page-header-container box-horizontal-center drop-shadow">
-    <div class="vertical-container" style="padding-top: 15px">
+    <div class="vertical-container" style="padding-top: 15px;">
 
       <div class="flex-column-double">
         <div class="vertical-container">
           <div class="flex-column-big">
-            <p><img class="drop-/shadow" src="/images/keytty.app.png" alt="keytty-icon" width="50%" height="50%"></p>
+            <p><img class="drop-/shadow" src="/images/keytty.app.png" alt="keytty-icon" width="50%" height="50%" /></p>
           </div>
           <div class="flex-column">
-            <p><img class="drop-/shadow" src="/images/heart.png" style="width:70%;height=70%" alt="heart"></p>
+            <p><img class="drop-/shadow" src="/images/heart.png" style="width:70%;height=70%;" alt="heart" /></p>
           </div>
           <div class="flex-column">
-            <p><img class="drop-/shadow" src="/images/cursor.png" alt="mouse-cursor" width="50%" height="50%"></p>
+            <p><img class="drop-/shadow" src="/images/cursor.png" alt="mouse-cursor"  width="50%" height="50%" /></p>
           </div>
         </div>
       </div>
 
       <div class="flex-column-double">
-	      <a onclick="downloadClick('trial-bottom');" href="https://dl.devmate.com/com.keytty.Keytty/keytty.dmg" class="btn">Try it for free</a>
-	      <a onclick="downloadClick('buy-bottom');" href="http://sites.fastspring.com/keytty/product/keytty-all" class="btn buy-btn">Buy meow!</a>
+        <a onclick="downloadClick('trial-bottom');" href="/support/downloads" class="btn">Free download</a>
+        <a onclick="downloadClick('buy-bottom');" href="https://www.patreon.com/keytty" class="btn buy-btn">Support meow!</a>
         <div class="desktop-only-buttons">
-		<div class="sell-message">Adopt Keytty for only the price of two cups of coffee!</div>
+		<div class="sell-message">Support Keytty with maybe the price of a cup of coffee!</div>
         </div>
       </div>
     </div>
     <div class="mobile-only-buttons">
-	    <div class="sell-message">Adopt Keytty for only the price of two cups of coffee!</div>
+	    <div class="sell-message">Support Keytty with maybe the price of a cup of coffee!</div>
     </div>
   </div>
 </section>
-<hr>
+<hr/>
 <div class="container">
   <div class="flex-column">
-<p><a href="https://twitter.com/keyttyapp" class="twitter-follow-button" data-show-count="false">Follow @keyttyapp</a> <script>!function(t,e,r){var n,s=t.getElementsByTagName(e)[0],i=/^http:/.test(t.location)?"http":"https";t.getElementById(r)||(n=t.createElement(e),n.id=r,n.src=i+"://platform.twitter.com/widgets.js",s.parentNode.insertBefore(n,s))}(document,"script","twitter-wjs");</script>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://keytty.com" data-text="Control your mouse with keyboard!" data-via="keyttyapp">Tweet</a> <script>!function(t,e,r){var n,s=t.getElementsByTagName(e)[0],i=/^http:/.test(t.location)?"http":"https";t.getElementById(r)||(n=t.createElement(e),n.id=r,n.src=i+"://platform.twitter.com/widgets.js",s.parentNode.insertBefore(n,s))}(document,"script","twitter-wjs");</script></p>
+<p><a href="https://twitter.com/keyttyapp" class="twitter-follow-button" data-show-count="false">Follow @keyttyapp</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://keytty.com" data-text="Control your mouse with keyboard!" data-via="keyttyapp">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
   </div>
   <div class="flex-column">
-<p><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fkeyttyapp&width=450&layout=standard&action=like&show_faces=true&share=true&height=100" width="100%" height="100px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe></p>
+<p><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fkeyttyapp&width=450&layout=standard&action=like&show_faces=true&share=true&height=100" width="100%" height="100px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
   </div>
   <div class="flex-column">
   </div>
@@ -407,15 +420,70 @@ Screencast
   <a class="support-btn" href="mailto:keytty.app@gmail.com">Contact</a>
   <span class="support-btn">|</span>
   <a class="support-btn" href="/how-to-use">How to use</a>
-  <a class="support-btn" href="/ko/how-to-use/" style="float:right">한국어</a>
+  <a class="support-btn" href="/ko/how-to-use/" style="float:right;">한국어</a>
   <span class="site-footer-owner">Keytty and related materials are copyright © 2016 Heechul Ryu</span>
   <span class="site-footer-credits">macOS (OS X) is a trademark of Apple Inc., registered in the U.S. and in other countries.</span>
 </footer>
 
     </section>
-		<script type="text/javascript">!function(){function n(n,a){a||(a=location.href),n=n.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var e="[\\?&]"+n+"=([^&#]*)",o=new RegExp(e),t=o.exec(a);return null==t?null:t[1]}function a(){var n=document.location.pathname.split("/");return!(n.length<2)&&"ko"==n[1]}var e=navigator.language||navigator.browserLanguage;if(e){var o=e.substring(0,2),t=n("lang",document.location.href);t&&"en"==t.substring(0,2)||"ko"!=o||a()||(document.location.href="/ko"+document.location.pathname)}}();</script>
+		<script type="text/javascript">
+(function(){
+  var language = navigator.language || navigator.browserLanguage;
 
-<script>Userback=window.Userback||{},function(e){if(!document.getElementById(e)){var c=document.createElement("script");c.id=e,c.src="https://app.userback.io/widget.js";var t=document.head||document.body;t.appendChild(c)}}("userback-sdk"),Userback.access_token="204|242|Ypr1mzvVzIHxvW2PsntBUCgrsuou8J569w8v6ErGm8dR5gGyDa";</script>
+  if (!language) {
+    return;
+  }
+
+  var locale = language.substring(0, 2);
+
+  function gup( name, url ) {
+    if (!url) url = location.href;
+    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+    var regexS = "[\\?&]"+name+"=([^&#]*)";
+    var regex = new RegExp( regexS );
+    var results = regex.exec( url );
+    return results == null ? null : results[1];
+  }
+
+  function isInKoreanPage(){
+    var paths = document.location.pathname.split('/');
+
+    if (paths.length < 2) {
+      return false;
+    }
+
+    if (paths[1] == 'ko') {
+      return true;
+    }
+    return false;
+  }
+
+  var requestedLang = gup('lang', document.location.href);
+
+  if (requestedLang && requestedLang.substring(0,2) == 'en') {
+    return;
+  }
+
+  if (locale == 'ko' && !isInKoreanPage()) {
+    document.location.href = '/ko' + document.location.pathname;
+  }
+})();
+</script>
+
+<script>
+    Userback = window.Userback || {};
+
+    (function(id) {
+        if (document.getElementById(id)) {return;}
+        var s = document.createElement('script');
+        s.id = id;
+        s.src = 'https://app.userback.io/widget.js';
+        var parent_node = document.head || document.body;
+        parent_node.appendChild(s);
+    })('userback-sdk');
+
+    Userback.access_token = '204|242|Ypr1mzvVzIHxvW2PsntBUCgrsuou8J569w8v6ErGm8dR5gGyDa';
+</script>
 
   </body>
 </html>
